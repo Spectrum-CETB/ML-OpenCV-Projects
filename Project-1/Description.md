@@ -3,5 +3,4 @@
 ### M or B type Cancer.
 
 # Objective:
-### the aim is to train a Machine learning model that will predict the type of cancer from which the person is suffering by 
-### the given parameters.
+### the aim is to train a Machine learning model that will predict the type of cancer from which the person is suffering from the given parameters.
