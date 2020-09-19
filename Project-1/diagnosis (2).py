@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.cross_validation import train_test_split
+from sklearn import metrics
 
 data=pd.read_csv("datasets_180_408_data.csv")
 data.head()
@@ -14,6 +15,6 @@ classifier=LogisticRegression(random_state=0)
 classifier.fit(x_train,y_train)
 
 y_pred=classifier.predict(x_test)
-
+print(metrics.accuracy_score(y_test,y_pred))
 
 
