@@ -59,7 +59,7 @@ y_pred=(y_pred>0.5)
 
 val=metrics.accuracy_score(y_test,y_pred)
 print("accuracy is =",str(val*100)+" %")
-
+#plot of the output
 plt.plot(x_train,grid.predict(x_train),'*')
 labels=['M-diagnosis','B-diagnosis']
 plt.legend(labels)
